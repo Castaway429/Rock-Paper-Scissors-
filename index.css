@@ -1,0 +1,89 @@
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#ffff, #9198e5);
+    border:none;
+}
+
+ #gamename {
+    color: #8700FF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana;
+    -webkit-text-stroke: 2px black;
+  }
+
+  #gametag{
+    text-align:center;
+    color: black;
+  }
+#heading {
+  border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+#user-score{
+  font-size: 30px;
+  color:black;
+}
+#computer-score{
+  font-size: 30px;
+  color:black;
+}
+#choosetag{
+    text-align:center;
+    position: fixed;
+    bottom: 85px;
+    width: 100%;
+    margin-right: 10px;
+}
+#actionmessage {
+  text-align:center;
+    position: fixed;
+    bottom: 125px;
+    width: 100%;
+    margin-right: 10px;
+}
+#buttons {
+    position: fixed;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+  transform: translateX(-50%);
+  }
+  #buttons button {
+    cursor:pointer;
+    margin: 0 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  /* end of basic page layout */
+ 
+#img-container{
+  width: 200px;
+  max-width: 200px;
+  height:auto;
+  display: none;
+}
+#starting-imgs{
+  border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 8px;
+}
+#pimg{
+  width: 200px;
+  height: auto;
+}
+#comimg{
+  width: 200px;
+  height: auto;
+}
